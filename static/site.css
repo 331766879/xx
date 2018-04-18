@@ -1,0 +1,155 @@
+
+body{
+  /*background-color: #fff;*/
+}
+#teml{
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+.el-tabs__item{
+  color: #999 !important;
+}
+.el-tabs__item.is-active{
+  font-size: 15px;
+  color: #000 !important;
+}
+.el-tabs__active-bar{
+  background-color:  black !important;
+}
+.el-tabs__nav{
+  line-height: 45px;
+  transform: translateX(50%) !important;
+}
+.el-tabs__nav-scroll{
+  background-color: #fff;
+}
+.el-tabs__header{
+  margin-bottom: 0 !important;
+}
+.tab2 .el-tabs__nav {
+  line-height: 37px;
+  transform: translateX(20%) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tab-fourth::after{
+  content: '';
+  float: right;
+  display: block;
+  margin-top: 14px;
+  margin-left:5px;
+  width:7px;
+  height: 4px;
+  background: url("../src/assets/箭头-灰-上.png")  ;
+  background-size:cover ;
+}
+
+
+#tab-five::before{
+  content: '';
+  display: block;
+  margin-top: 14px;
+  width:14px;
+  height: 14px;
+  background: url("../src/assets/列表排列.png")  ;
+  background-size:cover ;
+}
+
+.tab2 .el-tabs__active-bar{
+  height: 0;
+ }
+
+
+
+/*弹框*/
+
+.el-dialog__body{
+  text-align: center !important;
+  padding-top: 0 !important;
+  position:relative ;
+}
+.el-dialog__footer{
+  padding-top: 0 !important;
+}
+.el-dialog__header{
+  position: relative;
+}
+.el-dialog__headerbtn{
+  width: 30px;
+  line-height: 30px;
+  background-color: #999 !important;
+  border-radius:100px;
+  position: absolute;
+  top: -10px !important;
+  right: -10px !important;
+}
+
+
+.el-icon-close{
+  color: #fff !important;
+}
+
+
+
+/*我的订单里面的tab滑动功能*/
+.tab3 .el-tabs__nav {
+  line-height: 39px;
+  transform: translateX(20%) !important;
+}
+.tab3 .el-tabs__item.is-active{
+  font-size: 7px;
+}
+
+
+
+/*换货上传图片*/
+.avatar-uploader .el-upload {
+  width: 86px;
+  height: 86px;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  line-height: 86px;
+  text-align: center;
+}
+.avatar {
+  width: 86px;
+  height: 86px;
+  display: block;
+}
+
+/*确认订单里面的开关按钮*/
+.mint-switch-input:checked+.mint-switch-core{
+  background-color: #dd0a0a !important;
+  border-color: #dd0a0a !important;
+}
+
+.content_2_f>div{
+  width: 100%;
+  overflow: hidden;
+}
+.my-gallery{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+figure{
+  margin: 0;
+  padding: 0;
+  width: 31%;
+}
+.my-gallery figure a> img{
+  width: 100%;
+}
+
+
+
+
